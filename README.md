@@ -25,6 +25,6 @@ It is a good idea to mint your collection with `ALGO_NETWORK=TestNet` in the `.e
 
 ## FAQs
 
-### What happens if there is an error?
+### What happens if there is an error during the minting process?
 
 If there is an error during the minting process, the script will stop and display the error message. You can then fix the issue and run the script again after updating `SKIP_FIRST_N` in the `.env` file to the number of NFTs that were successfully minted.
