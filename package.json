@@ -1,0 +1,16 @@
+{
+  "name": "algominter-mint",
+  "version": "1.0.0",
+  "scripts": {
+    "mint": "node mint.js"
+  },
+  "dependencies": {
+    "algosdk": "^2.7.0",
+    "axios": "^1.6.5",
+    "cids": "^1.1.9",
+    "dotenv": "^16.3.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "multihashes": "^4.0.3"
+  }
+}
