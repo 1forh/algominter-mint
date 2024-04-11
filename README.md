@@ -11,8 +11,9 @@ This script can be used to mint a new NFT collection on the Algorand blockchain 
 ## Installation
 
 1. Clone this repository
-2. Run `npm install` to install the dependencies
-3. Create a `.env` file in the root directory, copy the contents of `.env.example`, and fill in the required values.
+2. Remove the `.gitkeep` file from the `input` directory
+3. Run `npm install` to install the dependencies
+4. Create a `.env` file in the root directory, copy the contents of `.env.example`, and fill in the required values.
 
 ## Usage
 
