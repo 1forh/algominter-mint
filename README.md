@@ -1,6 +1,6 @@
 # AlgoMinter - Mint Script
 
-This script can be used to mint a new NFT collection on the Algorand blockchain once you've downloaded your collection from [AlgoMinter](https://www.algominter.art/).
+This script can be used to mint a new NFT collection on the Algorand blockchain as (ARC19 and ARC69 NFTs) once you've downloaded your collection from [AlgoMinter](https://www.algominter.art/).
 
 ## Requirements
 

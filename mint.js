@@ -13,6 +13,7 @@ const NFT_NAME = process.env.NFT_NAME;
 const NFT_UNIT_NAME = process.env.NFT_UNIT_NAME;
 const NFT_DESCRIPTION = process.env.NFT_DESCRIPTION;
 const COLLECTION_SIZE = Number(process.env.COLLECTION_SIZE);
+const WEBSITE_URL = process.env.WEBSITE_URL;
 
 if (!NFT_NAME) throw new Error('No NFT name provided');
 if (!NFT_UNIT_NAME) throw new Error('No NFT unit name provided');
@@ -87,9 +88,12 @@ const formatArc69 = (data) => {
   const DEFAULT_JSON = {
     standard: 'arc69',
     description: NFT_DESCRIPTION,
-    external_url: 'https://www.shittykitties.art',
     mime_type: 'image/png',
   };
+
+  if (WEBSITE_URL) {
+    DEFAULT_JSON.external_url = WEBSITE_URL;
+  }
 
   const arc69 = {
     ...DEFAULT_JSON,
